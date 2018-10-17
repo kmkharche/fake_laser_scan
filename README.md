@@ -6,6 +6,7 @@ This package publishes a fake 2D laser scan message and simultaneously broadcast
 - The first fake scan is a circular laser scan with an increasing and decreasing radius, which is easy to visualize.
 - The second fake scan is a more random laser scan which is more similar to a typical real laser scan, when the robot is surrounded by objects at different distances.
 - The published dynamic transform moves the robot frame and the laser frame along the four sides of a square one by one.
+
 The package has been tested with Ubuntu 16.04 with a ROS Kinetic setup.
 
 **Keywords**: 2D laser scan, dynamic transform
