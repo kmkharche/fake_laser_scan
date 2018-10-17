@@ -1,0 +1,15 @@
+# 
+#	@file - tf_params.yaml
+#	@version - 0.0
+#	@date - July 16, 2018
+#	@brief - parameters for the dynamic transform
+#
+
+# The frame names between which the dynamic transform is published
+
+parent_frame: /map
+
+child_frame: /base_link
+
+
+

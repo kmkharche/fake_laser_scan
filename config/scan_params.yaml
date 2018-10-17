@@ -1,0 +1,24 @@
+# 
+#	@file - scan_params.yaml
+#	@version - 0.0
+#	@date - July 16, 2018
+#	@brief - parameters for the laser scan
+#
+
+# Default values in this file based on Velodyne VLP-16
+
+# Number of readings in one scan calculated as (angular range)/(angular resolution) for the Lidar
+# which is 360/0.1 for VLP-16
+num_readings: 3600
+
+# Number of points scanned by the laser per second
+laser_frequency: 300000
+
+# Minimum range of laser
+range_min: 0.9
+
+# Maximum range of laser
+range_max: 100.0
+
+# The frame id of the laser scanner
+laser_frame: "laser"
